@@ -1,0 +1,36 @@
+.info{
+  position: relative;
+  background-color: #558888;
+  width: 200px;
+  color: #fff;
+  display: block;
+  padding: 18;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+.info::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  background: url(../img/mail.svg)no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
+}
+.info::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  background: url(../img/download__icon.svg)no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
+}
